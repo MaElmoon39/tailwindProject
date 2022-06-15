@@ -1,0 +1,34 @@
+{
+  "name": "tailwindproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss css/tailwind.css -o public/css/style.css --watch",
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaElmoon39/tailwindPlatziTravel.git"
+  },
+  "keywords": [
+    "Tailwindcss"
+  ],
+  "author": "Maria E Tortello Ditta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaElmoon39/tailwindPlatziTravel/issues"
+  },
+  "homepage": "https://github.com/MaElmoon39/tailwindPlatziTravel#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2"
+  }
+}

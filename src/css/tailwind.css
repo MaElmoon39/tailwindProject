@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+    }
+    .card-cover {
+        @apply w-full h-3/5 rounded-t-lg bg-cover
+    }
+    .card-info--bg-secondary {
+        @apply w-full h-2/5 text-white bg-secondary rounded-b-lg px-4 py-3
+    }
+    .card-info--bg-tertiary {
+        @apply w-full h-2/5 text-tertiary bg-white rounded-b-lg px-4 py-3
+    }
+    .card-title {
+        @apply font-bold text-xl
+    }
+    .card-title--trending {
+        @apply text-2xl px-8 pt-0.5 pb-1 font-semibold text-white
+    }
+}
