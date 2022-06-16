@@ -19,6 +19,6 @@
         @apply font-bold text-xl
     }
     .card-title--trending {
-        @apply text-2xl px-8 pt-0.5 pb-1 font-semibold text-white
+        @apply text-2xl px-8 pt-0.5 pb-1 font-semibold text-white lg:text-3xl lg:text-end
     }
 }

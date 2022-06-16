@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class", // or "media" or "class",
   content: ["./public/index.html", "./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
@@ -47,5 +48,6 @@ module.exports = {
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
     require("@tailwindcss/aspect-ratio"),
+    require("tailwind-scrollbar-hide"),
   ],
 };
